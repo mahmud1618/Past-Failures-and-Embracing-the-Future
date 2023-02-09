@@ -3,14 +3,34 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.light-1 {
+.banner-1 {
     text-align: right;
     background-image: url("images/banner/banner1.png");
-    width: 100%;
+    /* width: 100%;
     height: 800px;
+    background-repeat: no-repeat; */
     background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 280px;
     background-color: rgba(245, 245, 245, 0.699);
+}
 
+.banner-2 {
+    text-align: right;
+    background-image: url("images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 280px;
+    background-color: rgba(245, 245, 245, 0.699);
+}
+
+.banner-3 {
+    text-align: right;
+    background-image: url("images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 280px;
+    background-color: rgba(245, 245, 245, 0.699);
 }
 
 .information {
@@ -115,11 +135,23 @@
 }
 
 /* Section for contact */
-
 .contact {
-    margin: 130px 230px 130px 365px;
+    margin: 130px 300px 130px 380px;
     background-image: url("images/watch.png");
     background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.gradient-1 {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
+
+.gradient-2 {
+/* background-image: linear-gradient(to right, red , yellow); */
+}
+
+.gradient-3 {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
 }
 
 .contact-title {
@@ -150,6 +182,7 @@
     width: 100%;
     height: 577px;
     background: #151414;
+    margin-bottom: 5px;
 }
 
 .footer-main {
@@ -212,12 +245,12 @@
     background-color: #151414;
 }
 
-.footer-btn{
+.footer-btn {
     width: 170.11px;
-height: 64px;
-font-weight: 600;
-border-radius: 5px;
-font-size: 20px;
-color: #F15B22;
-background-color: white;
+    height: 64px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #F15B22;
+    background-color: white;
 }
